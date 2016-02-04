@@ -741,8 +741,6 @@
             points = options.points || [];
         }
 
-        debugger;
-
         self.data.bound = false;
         self.data.url = url || self.data.url;
         self.data.points = (points || self.data.points).map(function (p) {
